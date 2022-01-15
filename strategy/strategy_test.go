@@ -24,7 +24,7 @@ func TestNewCache(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			got := NewCache(tt.args.e)
-			got.EvictionAlgo.Evict(got)
+			got.EvictionAlgo.Evict()
 		})
 	}
 }

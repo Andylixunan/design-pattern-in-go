@@ -3,7 +3,7 @@ package strategy
 import "fmt"
 
 type EvictionAlgo interface {
-	Evict(c *Cache)
+	Evict()
 }
 
 type Cache struct {
@@ -28,12 +28,12 @@ func (c *Cache) SetEvictionAlgo(e EvictionAlgo) {
 
 type FIFO struct{}
 
-func (f FIFO) Evict(c *Cache) {
+func (f FIFO) Evict() {
 	fmt.Println("Evicting by fifo strategy")
 }
 
 type LRU struct{}
 
-func (l LRU) Evict(c *Cache) {
+func (l LRU) Evict() {
 	fmt.Println("Evicting by lru strategy")
 }
