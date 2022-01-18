@@ -1,4 +1,5 @@
-# Design Pattern In Golang
-Implementation of several common design patterns in Golang
+# Design Patterns in Golang
+Implementations of several common design patterns in Golang
 
 - Strategy Pattern
+- Observer Pattern (Pub/Sub)
