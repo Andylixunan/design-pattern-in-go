@@ -7,3 +7,5 @@ Implementations of several common design patterns in Golang
 * Factory Pattern
     * Simple Factory Pattern
     * Factory Method Pattern
+    * Abstract Factory Pattern
+
