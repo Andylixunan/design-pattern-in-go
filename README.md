@@ -9,3 +9,5 @@ Implementations of several common design patterns in Golang
     * Factory Method Pattern
     * Abstract Factory Pattern
 * Singleton Pattern
+    * Instantiated before Use
+    * Lazy Instantiation
