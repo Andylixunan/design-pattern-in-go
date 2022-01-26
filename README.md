@@ -8,4 +8,4 @@ Implementations of several common design patterns in Golang
     * Simple Factory Pattern
     * Factory Method Pattern
     * Abstract Factory Pattern
-
+* Singleton Pattern
